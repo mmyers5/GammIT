@@ -165,7 +165,7 @@ if len(sys.argv) == 5:
   masterFile  = sys.argv[1]
   outFile     = sys.argv[2]
   startWith   = sys.argv[3]
-  sig         = float(sys.argv[4])
+  sig         = float(sys.argv[4])  # for sigma clipping
   if  not os.path.isfile(masterFile):
     sys.exit('{masterFile} does not exist'.format(masterFile=masterFile))
 else:

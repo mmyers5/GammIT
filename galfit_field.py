@@ -94,8 +94,9 @@ class GalfitField(GalfitConfig):
 
   def read_init(self):
     usecols = ('component', 'image', 'number', 'source_type')
-    init = np.genfromtxt(self.init_file, names=True, dtype=None,
-                         usecols=usecols)
+    dtype   = ('<i8', '|S5', '|S20', '|S10')
+    init = np.genfromtxt(self.init_file, names=True, usecols=usecols,
+                         dtype=dtype)
 
     for image in np.unique(init['image']):
       try:
