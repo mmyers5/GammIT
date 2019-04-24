@@ -22,7 +22,7 @@ parser.add_argument(
 )
 parser.add_argument(
     '-t', '--thresh',
-    default=utils.EXP_FRAM_THRESH,
+    default=0.86,
     help=('Good exposure/framtime threshold')
 )
 args = vars(parser.parse_args())
