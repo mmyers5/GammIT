@@ -4,7 +4,7 @@ import os
 from itertools import compress
 import re
 
-import pyfits
+from astropy.io import fits
 
 import utils
 
@@ -12,7 +12,7 @@ import utils
 parser = argparse.ArgumentParser()
 parser.add_argument(
     '-g', '--grb',
-    required=False,
+    default=None,
     help=('Desired GRB')
 )
 parser.add_argument(
@@ -42,7 +42,7 @@ def get_tagged_fits_files(tag, grb, ch, grb_dir):
                 yield os.path.join(path, name)
 
 def above_thresh(fits_file, thresh):
-    hdulist = pyfits.open(fits_file)
+    hdulist = fits.open(fits_file)
     exptime = hdulist[0].header['EXPTIME']
     framtime = hdulist[0].header['FRAMTIME']
     ratio = exptime/framtime
@@ -58,17 +58,20 @@ def write(tag, grb_dir, ch, fits_files):
         wf.writelines('\n'.join(fits_files))
     logging.info('File {} written'.format(write_file))
 
-if __name__ == '__main__':
-    grb_dir = os.path.join(utils.MOSAIC_DIR, GRB)
-    cbcd_files = get_tagged_fits_files('cbcd', GRB, CH, grb_dir)
+def main(grb, ch, thresh=THRESH):
+    grb_dir = os.path.join(utils.MOSAIC_DIR, grb)
+    cbcd_files = get_tagged_fits_files('cbcd', grb, ch, grb_dir)
     cbcd_files = sorted(list(cbcd_files))
-    cbcd_files.pop(0)       # remove calibration file
-    good_cbcd_mask = [above_thresh(i, THRESH) for i in cbcd_files]
+    cbcd_files.pop(0)   # remove calibration file
+    good_cbcd_mask = [above_thresh(i, thresh) for i in cbcd_files]
     good_cbcd_files = list(compress(cbcd_files, good_cbcd_mask))
 
     good_cbunc_files = [re.sub('cbcd', 'cbunc', f) for f in good_cbcd_files]
     good_bimsk_files = [re.sub('cbcd', 'bimsk', f) for f in good_cbcd_files]
 
-    write('cbcd', grb_dir, CH, good_cbcd_files)
-    write('cbunc', grb_dir, CH, good_cbunc_files)
-    write('bimsk', grb_dir, CH, good_bimsk_files)
+    write('cbcd', grb_dir, ch, good_cbcd_files)
+    write('cbunc', grb_dir, ch, good_cbunc_files)
+    write('bimsk', grb_dir, ch, good_bimsk_files)
+
+if __name__ == '__main__':
+    main(GRB, CH)
