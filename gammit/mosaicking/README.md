@@ -13,6 +13,6 @@ See install instructions from the [MOPEX Download page].
 To use the command-line mopex, run  `mosaic.pl -n namelist.nl`, where `namelist.nl` is a namelist located in the `cdf` directory of the current working directory.
 
 [MOPEX Download page]: https://irsa.ipac.caltech.edu/data/SPITZER/docs/dataanalysistools/tools/mopex/mopexdownload/
-[mopex_listmaker.py]: mosaicking/mopex_listmaker.py
-[mopex_nl.py]: mosaicking/mopex_nl.py
-[utils.py]: ../utils.py
+[mopex_listmaker.py]: mopex_listmaker.py
+[mopex_nl.py]: mopex_nl.py
+[utils.py]: https://github.com/mmyers5/GammIT/blob/master/utils.py
