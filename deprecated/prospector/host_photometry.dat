@@ -1,0 +1,513 @@
+#col1                col2          col3          col4
+#star/filter         host/magORul  refshift/unc  Av/corrected  ref
+*                    040924        0.859         0.1568
+my_spitzer_irac_ch1  22.96         0.16          False
+my_spitzer_irac_ch3  21.76         -             False
+acs_wfc_f775w        23.954        0.024         True          #1
+wfpc2_f450w          24.6          -             True          #2
+acs_wfc_f606w        24.2          -             True          #2
+acs_wfc_f814w        24.00         0.10          True          #3
+acs_wfc_f850lp       23.8          0.1           True          #4
+bessell_I            23.6          0.2           False         #5
+bessell_R            24.39         0.30          False         #5
+*                    041006        0.716         0.0667
+my_spitzer_irac_ch1  23.36         -             False
+my_spitzer_irac_ch3  21.67         -             False
+acs_wfc_f775w        24.668        0.057         True          #1
+acs_wfc_f850lp       24.1          0.15          True          #4
+cousins_R            25.227        0.236         False         #6
+*                    050315        1.949         0.1357
+my_spitzer_irac_ch1  23.56         0.15          False
+wfc3_ir_f160w        23.808        0.029         True          #1
+isaac_Ks             23.74         0.36          False         #7
+fors2_bessell_R      24.64         0.15          False         #7
+*                    050401        2.9           0.1771
+my_spitzer_irac_ch2  24.17         -             False
+my_spitzer_irac_ch3  22.99         -             False
+wfc3_ir_f160w        25.217        0.077         True          #1
+isaac_Ks             23.58         -             False         #7
+fors2_bessell_R      26.36         0.31          False         #7
+keck_lris_g          26.43         0.19          False
+keck_lris_R          26.12         0.30          False
+*                    050408        1.2357        0.0698
+*                    050525        0.606         0.2519
+my_spitzer_irac_ch1  23.57         0.07          False
+my_spitzer_irac_ch2  24.28         0.23          False
+my_spitzer_irac_ch3  23.36         -             False
+my_spitzer_irac_ch4  22.24         -             False
+acs_wfc_f625w        26.067        0.064         True          #1
+gtc_osiris_sdss_g    27.7          0.4           True          #8
+gtc_osiris_sdss_i    26.9          0.3           True          #8
+twomass_J            24.4          0.3           True          #8
+isaac_Ks             23.08         -             False         #7
+fors2_bessell_R      26.16         0.34          False         #7
+keck_lris_g          25.22         -             False
+keck_lris_I          23.35         -             False
+keck_nirc2_Ks        21.34         -             False
+*                    050820        2.612         0.1179
+*                    050824        0.83          0.0929
+my_spitzer_irac_ch1  24.25         0.38          False
+wfc3_ir_f160w        23.716        0.042         True          #1
+dolores_B            24.11         0.16          True          #9
+isaac_Ks             23.26         -             False         #7
+fors2_bessell_R      24.44         0.16          False         #7
+*                    050904        6.29          0.1623
+*                    051016B       0.9364        0.1077
+my_spitzer_irac_ch1  22.17         0.10          False
+wfc3_ir_f160w        22.314        0.011         True          #1
+sdss_g0              23.13         0.03          True          #9
+isaac_Ks             21.89         0.20          False         #7
+fors2_bessell_R      22.85         0.03          False         #7
+*                    051022        0.809         0.1569
+my_spitzer_irac_ch1  20.20         0.03          False
+my_spitzer_irac_ch2  20.66         0.12          False
+acs_wfc_f606w        22.020        0.006         True          #1
+bessell_B            22.14         0.15          True          #10
+bessell_V            21.87         0.13          True          #10
+gemini_gmoss_r       21.77         0.03          True          #10
+bessell_R            21.61         0.04          True          #10
+gemini_gmoss_i       21.32         0.13          True          #10
+lris_I               21.26         0.09          True          #10
+bessell_I            21.09         0.10          True          #10
+gemini_gmoss_z       20.90         0.06          True          #10
+ukirt_wfcam_J        20.60         0.11          True          #10
+wfc3_ir_f160w        20.71         0.10          True          #10
+ukirt_wfcam_H        20.60         0.14          True          #10
+ukirt_wfcam_K        20.06         0.09          True          #10
+*                    060124        2.296         0.3614
+my_spitzer_irac_ch1  24.86         -             False
+my_spitzer_irac_ch3  23.21         -             False
+wfc3_ir_f160w        26.133        0.126         True          #1
+keck_lris_g          21.94         -             False
+keck_lris_R          22.90         -             False
+*                    060218        0.0331        0.3884
+my_spitzer_irac_ch1  20.62         0.03          False
+my_spitzer_irac_ch2  21.15         0.04          False
+wfc3_ir_f160w        19.635        0.003         True          #1
+#wfc3_uvis_f814w     19.69         0.04          True          #3
+#bessell_R           19.80         0.03          True          #3
+#sdss_u0             20.61         0.12          True          #9
+sdss_u0              21.17         0.12          False         #41
+sdss_g0              20.23         0.03          False         #41
+sdss_r0              20.06         0.03          False         #41
+fors2_bessell_R      20.19         0.01          False         #7
+isaac_Ks             19.79         0.09          False         #7
+*                    060223        4.41          0.3045
+*                    060512        2.1           0.0442
+my_spitzer_irac_ch1  24.60         0.44          False
+keck_lris_g          24.94         0.12          False
+*                    060522        5.11          0.1462
+*                    060614        0.125         0.0575
+my_spitzer_irac_ch1  23.03         0.16          False
+acs_wfc_f606w        22.821        0.007         True          #1
+#bessell_B           23.61         0.13          True
+wfc3_uvis_f814w      22.37         0.60          True          #3
+#bessell_R           22.63         0.01          True
+sdss_u0              24.55         0.31          True          #3
+#bessell_V           22.75         0.05          True
+bessell_I            22.40         0.14          False         #11
+twomass_J            20.91         -             False         #11
+fors2_bessell_R      22.74         0.06          False         #7
+isaac_Ks             22.21         0.20          False         #7
+bessell_B            23.53         0.15          False         #3
+bessell_V            22.76         0.09          False         #3
+bessell_R            22.65         0.04          False         #3
+bessell_I            22.21         0.07          False         #3
+#uvot_B              22.97         -             True          #13
+#uvot_U              24.72         0.25          True          #13
+#uvot_V              22.09         -             True          #13
+#uvot_W1             24.61         -             True          #13
+#uvot_M2             24.19         -             True          #13
+#uvot_W2             24.23         -             True          #13
+*                    060719        1.532         0.0208
+my_spitzer_irac_ch1  22.70         0.13          False
+my_spitzer_irac_ch2  22.64         0.09          False
+wfc3_ir_f160w        23.400        0.023         True          #1
+wfc3_ir_f125w        23.58         0.04          True          #10
+isaac_Ks             23.08         0.27          True          #10
+fors2_bessell_R      24.77         0.11          True          #10
+*                    060729        0.54          0.1457
+my_spitzer_irac_ch1  23.34         -             False
+wfc3_ir_f160w        23.509        0.028         True          #1
+acs_wfc_f850lp       24.60         0.20          True          #37
+wfpc2_f622w          24.54         0.20          True          #37
+acs_hrc_f330w        24.80         -             True          #37
+nicmos3_f222m        22.10         -             True          #37
+sdss_g0              25.30         0.16          True          #9
+isaac_Ks             23.05         0.31          False         #7
+#fors2_bessell_R     23.92         0.04          False         #7
+*                    061007        1.261         0.0544
+my_spitzer_irac_ch1  23.54         0.17          False
+wfc3_ir_f160w        23.621        0.033         True          #1
+isaac_Ks             22.91         0.37          False         #7
+fors2_bessell_R      24.61         0.17          False         #7
+*                    070208        1.165         0.0414
+my_spitzer_irac_ch1  21.76         0.06          False
+my_spitzer_irac_ch2  21.97         0.05          False
+wfc3_ir_f160w        21.902        0.009         True          #1
+*                    070306        1.4959        0.0731
+my_spitzer_irac_ch1  21.51         0.06          False
+my_spitzer_irac_ch2  21.39         0.05          False
+wfc3_ir_f160w        21.860        0.007         True          #1
+wfc3_ir_f125w        21.88         0.03          True          #10
+grond_g              22.90         0.09          False         #14
+grond_r              23.08         0.09          False         #14
+fors2_bessell_R      23.00         0.09          False         #14
+grond_i              22.81         0.13          False         #14
+grond_z              22.83         0.17          False         #14
+grond_J              21.9          0.4           False         #14
+isaac_Js             21.62         0.08          False         #14
+grond_H              21.5          0.4           False         #14
+isaac_H              21.20         0.12          False         #14
+grond_Ks             21.1          -             False         #14
+twomass_Ks           21.38         0.10          False         #14
+*                    070318        0.836         0.0452
+my_spitzer_irac_ch1  23.39         -             False
+my_spitzer_irac_ch2  23.70         0.31          False
+wfc3_ir_f160w        24.100        0.034         True          #1
+isaac_Ks             22.89         -             False         #7
+fors2_bessell_R      24.64         0.11          False         #7
+*                    070318_2      0.836         0.0452
+my_spitzer_irac_ch2  23.70         0.31          False
+wfc3_ir_f160w        24.100        0.034         True          #1
+fors2_bessell_R      24.64         0.11          False         #7
+*                    070508        0.82          0.3701
+*                    070721B       3.626         0.0839
+my_spitzer_irac_ch1  24.39         -             False
+acs_wfc_f775w        28.442        0.165         True          #1
+isaac_Ks             24.23         -             False         #7
+fors2_bessell_R      27.74         0.44          False         #7
+*                    070802        2.45          0.0693
+my_spitzer_irac_ch1  23.89         0.20          False
+my_spitzer_irac_ch2  23.67         0.21          False
+wfc3_ir_f160w        23.994        0.043         True          #1
+#isaac_Ks            23.12         0.41          False         #7
+#fors2_bessell_R     25.32         0.21          False         #7
+wfc3_ir_f105w        24.72         0.09          True          #10
+fors2_bessell_R      25.20         0.09          False         #14
+efosc_gunn_i         25.50         0.30          False         #14
+twomass_J            24.5          0.30          False         #14
+isaac_Ks             23.40         0.30          False         #14
+*                    071031        2.692         0.0310
+*                    071112C       0.823         0.3174
+my_spitzer_irac_ch1  24.04         0.30          False
+my_spitzer_irac_ch2  23.67         -             False
+wfc3_ir_f160w        23.674        0.046         True          #1
+bessell_R            25.21         0.12          True          #8
+dolores_I            24.54         0.13          True          #8
+sdss_z0              24.05         0.14          True          #8
+keck_lris_B          25.94         0.29          False
+keck_lris_R          24.48         0.16          False
+*                    071122        1.14          0.1276
+*                    080319B       0.937         0.0293
+my_spitzer_irac_ch1  23.84         -             False
+wfpc2_f606w          26.679        0.200         True          #1
+wfpc2_f814w          25.55         0.20          False         #15
+fors2_bessell_B      26.77         0.30          False         #15
+gemini_gmosn_i       26.16         0.15          False         #15
+gemini_gmosn_r       26.92         0.15          False         #15
+gemini_gmosn_g       26.76         0.10          False         #15
+*                    080325        1.78          0.1739
+my_spitzer_irac_ch1  21.28         0.04          False
+my_spitzer_irac_ch2  21.23         0.03          False
+wfc3_ir_f160w        22.537        0.016         True          #1
+sdss_u0              25.87         0.25          False         #16
+suprime_B            25.66         0.12          False         #16
+keck_lris_g          25.48         0.08          False         #16
+keck_lris_R          24.81         0.11          False         #16
+suprime_Rc           24.84         0.14          False         #16
+sdss_i0              24.72         0.15          False         #16
+suprime_sdss_i       24.67         0.20          False         #16
+suprime_sdss_z       24.20         0.09          False         #16
+wfc3_ir_f125w        22.75         0.04          True          #10
+bessell_U            25.17         0.19          True          #10
+keck_lris_I          24.61         0.21          True          #10
+moircs_Ks            23.55         0.06          True          #17
+moircs_J             23.91         0.18          True          #17
+*                    080430        0.767         0.0329
+my_spitzer_irac_ch1  23.40         -             False
+wfc3_ir_f160w        24.595        0.071         True          #1
+dolores_sdss_g       25.21         0.19          True          #8
+sdss_r0              24.26         0.10          True          #8
+dolores_sdss_i       24.43         0.22          True          #8
+dolores_sdss_z       24.05         0.15          True          #8
+keck_lris_g          24.89         0.05          False
+keck_lris_I          23.99         0.12          False
+keck_nirc2_J         23.19         -             False
+keck_lris_R          24.32         0.09          False
+keck_lris_V          24.67         0.09          False
+*                    080520        1.545         0.2070
+*                    080603B       2.69          0.0333
+my_spitzer_irac_ch1  24.17         0.30          False
+wfc3_ir_f160w        26.7          -             True          #8
+bessell_R            22.71         -             False         #18
+uvot_M2              21.20         -             False         #19
+keck_lris_g          26.57         -             False
+keck_lris_R          25.86         -             False
+*                    080707        1.23          0.2648
+my_spitzer_irac_ch1  22.97         0.15          False
+wfc3_ir_f160w        22.950        0.017         True          #1
+uvot_B               21.61         -             False         #20
+uvot_U               22.20         -             False         #20
+uvot_W1              22.92         -             False         #20
+uvot_M2              22.98         -             False         #20
+uvot_W2              21.95         -             False         #20
+*                    080805        1.505         0.1159
+my_spitzer_irac_ch1  22.33         0.09          False
+my_spitzer_irac_ch2  22.28         0.07          False
+wfc3_ir_f160w        23.249        0.020         True          #1
+efosc_bessell_V      25.7          0.2           False         #14
+efosc_gunn_i         25.7          0.4           False         #14
+efosc_bessell_R      25.5          0.2           False         #14
+twomass_J            23.6          0.2           False         #14
+twomass_Ks           23.1          0.2           False         #14
+*                    080928        1.692         0.1762
+my_spitzer_irac_ch1  23.38         -             False
+my_spitzer_irac_ch2  23.75         -             False
+wfc3_ir_f160w        21.990        0.010         True          #1
+grond_g              25.4          -             False         #22
+grond_r              25.6          -             False         #22
+grond_i              24.6          -             False         #22
+grond_z              24.3          -             False         #22
+grond_J              22.0          -             False         #22
+grond_H              21.6          -             False         #22
+grond_Ks             20.9          -             False         #22
+uvot_V               20.49         -             False         #22
+uvot_U               22.92         -             False         #22
+uvot_B               21.27         -             False         #22
+uvot_W1              22.81         -             False         #22
+*                    081007        0.5295        0.0431
+my_spitzer_irac_ch1  23.37         -             False
+my_spitzer_irac_ch2  23.65         -             False
+wfc3_ir_f160w        24.489        0.059         True          #1
+gemini_gmoss_g       24.91         0.19          False         #22
+gemini_gmoss_r       23.89         0.08          False         #22
+gemini_gmoss_i       23.58         0.07          False         #22
+gemini_gmoss_z       23.13         0.09          False         #22
+fors2_bessell_I      24.29         0.20          False         #22
+fors2_bessell_R      24.67         -             False         #22
+#grond_g             24.66         0.11          True          #23
+#grond_r             24.49         0.11          True          #23
+grond_i              24.08         0.19          True          #23
+#grond_z             23.96         0.24          True          #23
+#grond_J             22.0          -             True          #23
+#grond_H             21.1          -             True          #23
+#grond_Ks            20.1          -             True          #23
+grond_g              24.96         0.18          True          #8
+grond_r              24.79         0.20          True          #8
+grond_z              23.70         0.27          True          #8
+grond_J              23.45         0.20          True          #8
+grond_Ks             23.8          -             True          #8
+*                    081008        1.9685        0.2517
+my_spitzer_irac_ch1  23.95         -             False
+wfc3_ir_f160w        23.591        0.028         True          #1
+bessell_R            20.96         0.1           False         #24
+*                    081109        0.9787        0.0519
+my_spitzer_irac_ch1  20.70         0.06          False
+my_spitzer_irac_ch2  20.86         0.05          False
+wfc3_ir_f110w        21.519        0.006         True          #1
+wfc3_ir_f160w        21.28         0.03          True          #10
+uvot_W2              24.1          -             False         #14
+uvot_M2              23.6          0.3           False         #14
+uvot_W1              23.4          0.3           False         #14
+uvot_U               22.9          -             False         #14
+efosc_bessell_U      23.23         0.14          False         #14
+grond_g              23.07         0.07          False         #14
+fors2_bessell_V      22.85         0.06          False         #14
+grond_r              22.74         0.07          False         #14
+grond_i              22.01         0.08          False         #14
+fors2_bessell_I      21.96         0.09          False         #14
+grond_z              21.99         0.09          False         #14
+grond_J              21.40         0.17          False         #14
+isaac_Js             21.37         0.06          False         #14
+grond_H              21.5          0.4           False         #14
+grond_Ks             20.6          -             False         #14
+isaac_Ks             21.05         0.08          False         #14
+*                    081121        2.512         0.1351
+my_spitzer_irac_ch1  23.85         -             False
+wfc3_ir_f160w        24.923        0.054         True          #1
+*                    090404        3.0           0.0557
+*                    090407        1.4485        0.1802
+my_spitzer_irac_ch1  22.07         0.08          False
+my_spitzer_irac_ch2  22.07         0.06          False
+wfc3_ir_f160w        22.953        0.019         True          #1
+keck_lris_B          27.15         0.37          True          #10
+keck_lris_g          26.20         0.31          True          #10
+keck_lris_R          25.76         0.17          True          #10
+keck_lris_I          24.77         0.24          True          #10
+gemini_niri_K        22.19         0.12          True          #10
+keck_nirc2_Kp        22.21         0.12          False
+*                    090417B       0.345         0.0445
+my_spitzer_irac_ch1  21.13         0.09          False
+my_spitzer_irac_ch2  21.42         0.09          False
+uvot_V               20.89         -             False         #26
+uvot_B               21.27         -             False         #26
+uvot_U               24.11         0.38          False         #26
+uvot_W1              24.63         0.56          False         #26
+uvot_M2              24.22         0.29          False         #26
+uvot_W2              24.42         0.19          False         #26
+bessell_B            23.16         0.13          False         #26
+bessell_R            21.55         0.03          False         #26
+sdss_i0              21.19         0.07          False         #26
+gemini_gmosn_g       22.39         0.16          False         #27
+gemini_gmosn_r       21.78         0.10          False         #27
+gemini_gmosn_i       21.68         0.12          False         #27
+gemini_gmosn_z       22.03         0.30          False         #27
+sdss_r0              22.06         0.3           False         #28
+moircs_J             20.91         -             False         #29
+moircs_Ks            20.35         -             False         #29
+keck_nirc2_J         20.68         0.06          False
+keck_nirc2_Ks        19.87         0.05          False
+*                    090424        0.544         0.0667
+my_spitzer_irac_ch1  21.32         0.06          False
+wfc3_ir_f160w        21.260        0.007         True          #1
+twomass_J            21.60         0.11          False         #22
+twomass_H            21.21         0.32          False         #22
+fors2_bessell_I      21.85         0.13          False         #22
+fors2_bessell_R      22.50         0.21          False         #22
+sdss_r0              21.78         0.15          False         #22
+sdss_i0              19.66         0.04          False         #22
+*                    091127        0.49          0.1068
+my_spitzer_irac_ch1  23.64         0.33          False
+wfc3_ir_f160w        22.700        0.021         True          #1
+gtc_osiris_sdss_z    22.39         0.28          True          #30
+gtc_osiris_sdss_i    22.86         0.11          True          #30
+gtc_osiris_sdss_r    23.15         0.13          True          #30
+gtc_osiris_sdss_g    24.23         0.26          True          #30
+tng_dolores_I        23.22         0.19          True          #30
+tng_dolores_V        23.75         0.18          True          #30
+tng_dolores_B        24.16         0.18          True          #30
+imacs_sloan_g        24.05         0.14          False         #31
+imacs_sloan_r        23.34         0.05          False         #31
+imacs_sloan_i        22.89         0.07          False         #31
+imacs_sloan_z        22.57         0.10          False         #31
+grond_g              24.12         0.08          True          #32
+grond_r              23.28         0.05          True          #32
+grond_i              22.88         0.07          True          #32
+grond_z              23.38         0.18          True          #32
+grond_J              21.37         -             True          #32
+grond_H              20.95         -             True          #32
+*                    091208B       1.063         0.1396
+my_spitzer_irac_ch1  23.62         -             False
+wfc3_ir_f160w        26.7          -             True          #1
+keck_lris_B          26.89         -             False
+keck_lris_R          26.02         -             False
+*                    100615A       1.398         0.1175
+my_spitzer_irac_ch1  23.84         0.23          False
+my_spitzer_irac_ch2  23.67         0.16          False
+wfc3_uvis_f606w      25.092        0.033         True          #1
+wfc3_ir_f160w        24.10         -             False         #33
+grond_g              24.20         -             False         #34
+grond_r              23.90         -             False         #34
+grond_i              22.90         -             False         #34
+grond_z              22.50         -             False         #34
+grond_J              21.40         -             False         #34
+grond_H              20.70         -             False         #34
+grond_Ks             20.30         -             False         #34
+gemini_niri_K        24.05         -             False         #35
+*                    100621A       0.542         0.0822
+my_spitzer_irac_ch1  21.67         0.11          False
+my_spitzer_irac_ch2  21.75         0.08          False
+wfc3_ir_f160w        21.316        0.006         True          #1
+uvot_W2              22.31         0.04          False         #14
+uvot_M2              22.23         0.06          False         #14
+uvot_W1              22.20         0.07          False         #14
+uvot_U               21.95         0.06          False         #14
+fors2_bessell_U      21.95         0.10          False         #14
+grond_g              21.86         0.06          False         #14
+grond_r              21.48         0.06          False         #14
+grond_i              21.15         0.06          False         #14
+grond_z              21.46         0.06          False         #14
+isaac_Js             21.43         0.06          False         #14
+grond_H              21.18         0.14          False         #14
+grond_Ks             21.1          -             False         #14
+isaac_Ks             21.23         0.11          False         #14
+*                    110731A       2.83          0.4874
+my_spitzer_irac_ch1  24.32         -             False
+wfc3_uvis2_f625w     25.236        0.043         True          #1
+*                    120119A       1.728         0.2803
+my_spitzer_irac_ch1  22.60         0.07          False
+my_spitzer_irac_ch2  22.55         0.05          False
+wfc3_ir_f160w        23.480        0.022         True          #1
+keck_lris_B          25.41         0.13          False         #36
+sdss_g0              25.27         0.05          False         #36
+keck_lris_R          24.80         0.17          False         #36
+#R                   24.89         0.11          False
+keck_lris_I          24.10         0.13          False         #36
+sdss_z0              24.12         0.13          False         #36
+gemini_niri_K        22.76         0.13          False         #36
+wfc3_ir_f125w        23.13         0.04          False         #36
+*                    080928_2      1.692         0.1762
+my_spitzer_irac_ch1  21.73         0.05          False
+my_spitzer_irac_ch2  21.79         0.04          False
+wfc3_ir_f160w        21.990        0.010         True          #1
+grond_g              25.4          -             False         #22
+grond_r              25.6          -             False         #22
+grond_i              24.6          -             False         #22
+grond_z              24.3          -             False         #22
+grond_J              22.0          -             False         #22
+grond_H              21.6          -             False         #22
+grond_Ks             20.9          -             False         #22
+uvot_V               20.49         -             False         #22
+uvot_U               22.92         -             False         #22
+uvot_B               21.27         -             False         #22
+uvot_W1              22.81         -             False         #22
+*                    081008_2      1.9685        0.2517
+my_spitzer_irac_ch1  23.42         0.15          False
+wfc3_ir_f160w        23.591        0.028         True          #1
+bessell_R            20.96         0.1           False         #24
+*                    050730        3.967         0.1337
+my_spitzer_irac_ch1  25.14         -             False
+my_spitzer_irac_ch3  23.03         -             False
+acs_wfc_f775w        27.9          -             True          #1
+isaac_Ks             23.21         -             False         #7
+fors2_bessell_R      27.41         -             False         #7
+suprime_B            26.21         -             True          #38
+focas_V              25.73         -             True          #38
+suprime_Rc           26.48         -             True          #38
+suprime_sdss_z       25.10         -             True          #38
+moircs_J             25.22         -             True          #38
+moircs_Ks            25.04         -             True          #38
+fors2_bessell_R      27.69         -             True          #38
+fors2_bessell_I      24.96         -             True          #38
+keck_lris_g          26.16         -             False         #39
+keck_lris_Rs         25.96         -             False         #39
+magic_sdss_i         26.16         -             False         #39
+*                    050908        3.344         0.0663
+my_spitzer_irac_ch1  25.24         0.23          False
+my_spitzer_irac_ch3  23.15         -             False
+acs_wfc_f775w        27.669        0.136         True          #1
+#isaac_Ks            23.76         -             False         #7
+fors2_bessell_R      27.97         0.45          False         #7
+twomass_H            25.56         -             False         #39
+*                    060115        3.53          0.3570
+*                    060206        4.048         0.0309
+my_spitzer_irac_ch1  25.37         -             False
+my_spitzer_irac_ch3  23.60         -             False
+acs_wfc_f814w        27.647        0.094         True          #1
+*                    060526        3.21          0.1763
+my_spitzer_irac_ch1  25.18         -             False
+my_spitzer_irac_ch3  23.10         -             False
+acs_wfc_f775w        27.4          -             True          #1
+isaac_Ks             23.96         -             False         #7
+fors2_bessell_R      27.23         -             False         #7
+fors2_bessell_R      27.31         -             False         #40
+*                    060605        3.78          0.1369
+*                    060607        3.082         0.0766
+my_spitzer_irac_ch1  25.20         -             False
+my_spitzer_irac_ch3  23.24         -             False
+acs_wfc_f775w        28.9          -             True          #1
+isaac_Ks             23.71         -             False         #7
+fors2_bessell_R      28.13         -             False         #7
+twomass_H            26.06         -             False         #39
+keck_lris_g          26.36         -             False         #39
+keck_lris_Rs         26.06         -             False         #39
+*                    060927        5.6           0.1916
+*                    061110B       3.44          0.1044
+my_spitzer_irac_ch1  25.19         -             False
+my_spitzer_irac_ch3  22.99         -             False
+acs_wfc_f775w        27.230        0.105         True          #1
+isaac_Ks             23.09         -             False         #7
+fors2_bessell_R      26.25         0.29          False         #7
+keck_lris_I          24.09         -             False
+keck_lris_V          24.82         -             False
