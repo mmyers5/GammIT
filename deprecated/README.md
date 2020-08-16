@@ -87,3 +87,69 @@ Dummy file.
 Dummy file.
 
 ## imgmatch_manual
+
+Execution script which reads target and reference coordinates from a file to manually write a .ccmap file.
+
+### Input
+
+An init file with target and reference coordinates, the target .star file, and the reference .star file.
+
+## lum_dist
+
+Utility script to plot luminosity distributions.
+
+## make_master_mass_light
+
+Execution script to read a file with photometry and write the age and the luminosity distance based on redshift. Looks like it's a a way to make a pretty table.
+
+## make_model_stamps
+
+Execution script to make stamps from a file of model-subtracted sources.
+
+## make_stamp_all
+
+Incomplete utility script to make stamps.
+
+## make_stamps
+
+Execution script to make stamps.
+
+## master_phot
+
+Execution script to calculte photometry. Input file must specify coordinates, aperture sizes, and whether or not something is model-subtracted. Handles all aspects of photometry calculation, including sigma-clipping and background-subtraction.
+
+## masterplot
+
+Utility scripts to make plots of stuff.
+
+## model_plotter
+
+Utility script to plot more stuff.
+
+## model_tabler
+
+Utility script to write data in LaTeX format.
+
+## plot_delta
+
+Utility script to plot data deltas.
+
+## plotato
+
+Utility script to plot again.
+
+## region_tools
+
+## sigma_clipper
+
+## star_parser
+
+## tabler
+
+## view_models
+
+
+
+
+
+
